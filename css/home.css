@@ -13,7 +13,7 @@
   font-size: 60px;
   color: #fff;
   margin-bottom: 20px;
-}
+}    
 
 .detel p {
   line-height: 1.6;
@@ -33,11 +33,25 @@
   right: 85px;
   top: 200px;
   width: 450px;
-}
-@media (min-width: 915px) and (max-width: 1024px) {
-  .detel {
-    padding: 5%;
-    padding-top: 20%;
+}   
+@media (min-width: 300px) and (max-width: 680px) {
+  .hero { 
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #282727, #383737, #3d3d3d);
   }
-  
+  .detel {
+    padding-top: 32%;
+    font-size: 5px;
+    line-height: 1.2;
+  }
+  .detel img {
+    width: 230px;
+    position: absolute;
+    top: 60%;
+  }
+  .detel #shape {
+    width: 230px;
+    margin-top: 50% ;
+  }
 }
