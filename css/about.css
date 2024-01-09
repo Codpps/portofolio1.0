@@ -1,7 +1,6 @@
 .hero2 {
     width: 100%;
     height: 100vh;
-    position: relative;
     background: linear-gradient(to left, #282727, #2b2a2a, #4a4a4a); 
 }
 .detel2 {
@@ -30,4 +29,24 @@
     line-height: 1.50 ;
     padding: 5px;
     width: 700px;
+} 
+@media (min-width: 300px) and (max-width: 680px) {
+    .detel2 {
+        display: block;
+    }
+    .detel2 img {
+        width: 300px;
+        height: 500px;
+        padding-left: 20px;
+    }
+    .contain h1 {
+        font-size: 25px;
+    }
+    .contain p {
+        font-size: 15px;
+    }
+    #text-about {
+        width:  300px;
+        font-size: 13px;
+    }
 }
